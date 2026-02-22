@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from aws_clients import ddb_table
+from tools.aws_clients import ddb_table
 
 
 def create_item(
